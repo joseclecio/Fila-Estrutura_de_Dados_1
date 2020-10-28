@@ -99,6 +99,7 @@ public class FilaInteiros<T> extends FilaSequencial<Integer>{
 
         }
 
+        //Aqui irá fazer com que a fila volte ao estado inicial em que estava antes de ser usada
         inicio = -1;
         fim = -1;
         tamanho = 0;

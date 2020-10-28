@@ -126,7 +126,7 @@ public class FilaInteirosInfinita<T> extends FilaSequencial<Integer> {
             fim = tamanho - 1;
         }
 
-        /* Esse daqui também serve, más dava problemas ao preencher 2 filas após uma certa remoção da primeira fila
+        /* Esse daqui também serve, más dava problemas ao preencher 2 filas após uma certa quantidade de remoção da primeira fila
         if (this.tamanho == this.dados.length) {
             T[] elementosNovos = (T[]) new Object[this.dados.length * 2];
             for (int i = 0; i < this.dados.length; i++) {

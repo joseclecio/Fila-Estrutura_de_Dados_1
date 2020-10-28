@@ -1,7 +1,7 @@
 package br.edu.ifs.ED_20201.fila;
 
 import java.util.Arrays;
-//A implementação dessa fila está com o método expansor, para caso a mesma encher, automaticamente irá expandir
+//A implementação dessa fila está com o método expansor, para caso a mesma encher, automaticamente irá expandir.
 
 public class FilaInteirosInfinita<T> extends FilaSequencial<Integer> {
     private int max;

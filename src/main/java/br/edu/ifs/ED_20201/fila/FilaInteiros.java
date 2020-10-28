@@ -1,6 +1,8 @@
 package br.edu.ifs.ED_20201.fila;
 
 import java.util.Arrays;
+//A implementação dessa fila não está com o método expansor, ou seja, caso a
+// fila encher irá dar um erro chamando FilaCheiaException com sua respectiva menságem.
 
 public class FilaInteiros<T> extends FilaSequencial<Integer>{
     private int max;

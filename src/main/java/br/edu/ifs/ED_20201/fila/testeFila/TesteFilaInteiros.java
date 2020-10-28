@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class TesteFilaInteiros {
 
     public static void main(String[] args) throws FilaCheiaException, FilaVaziaException {
-        FilaInteiros fila = new FilaInteiros(Integer.class);
+        FilaInteiros<Integer> fila = new FilaInteiros<>(Integer.class);
 
         Scanner leitor = new Scanner(System.in);
         int opc, e;

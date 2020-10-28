@@ -69,6 +69,7 @@ public class FilaInteirosInfinita<T> extends FilaSequencial<Integer> {
 
     @Override
     public int getQtdMaxSuportada() {
+        //aqui fará com que mostre a quantidade máxima do vetor para suportar os dados, estando ele cheio ou vazio
         return dados.length;
     }
 
@@ -79,6 +80,8 @@ public class FilaInteirosInfinita<T> extends FilaSequencial<Integer> {
     }
 
     public boolean estaCheia() {
+        //implementei esse método para facilitar o uso tanto de uma fila vazia e tbm mostrar o
+        // estado dela cheia, aonde o método incluir() utilizará ela
         return inicio == ((fim + 1) % dados.length);
         //return (getQtd() == getQtdMaxSuportada());
     }

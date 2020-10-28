@@ -122,6 +122,25 @@ public class FilaInteiros<T> extends FilaSequencial<Integer>{
                 ", dados=" + Arrays.toString(dados) +
                 ", tamanho=" + tamanho +
                 '}';
+
+         /* Pode ser este também
+        StringBuilder s = new StringBuilder();
+        s.append("[");
+
+        for (int i = 0; i < this.tamanho - 1; i++) {
+            s.append(this.dados[i]);
+            s.append(",");
+        }
+
+        if (this.tamanho > 0) {
+            s.append(this.dados[this.tamanho - 1]);
+        }
+
+        s.append("]");
+
+        return s.toString();
+
+         */
     }
 
 }

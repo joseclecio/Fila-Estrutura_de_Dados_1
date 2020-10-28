@@ -13,7 +13,8 @@ public class TesteFilaInteirosInfinita {
 
         Scanner leitor = new Scanner(System.in);
         int opc = 0, e = 0;
-        String menu = "\n1 - Adiciona na fila" +
+        String menu =
+                "\n1 - Adiciona na fila" +
                 "\n2 - Remove da fila" +
                 "\n3 - Exibe a fila" +
                 "\n4 - Está vazia?"+
